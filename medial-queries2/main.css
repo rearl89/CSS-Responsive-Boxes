@@ -8,42 +8,34 @@ body {
   display: flex;
   height: 100vh;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
 }   
 
-.a, .b, .c, .d, .e, .f {
+.a, .c, .d, .e, .f {
   border: 1px solid black;
   margin: 15px;
   background-color: rgb(238,224,206);
 }
 
 .a {
-flex-grow: 1;
-min-width: 97%;
+  min-width: 100%;
 }
 
 .b {
-flex-grow: 3;
-min-width: 97%;
+  margin: 15px;
+  background-color: rgb(238,224,206);
+  flex-grow: 4;
+  min-width: 100%;
+  min-height: 30%;
 }
 
-.c {
-flex-grow: 1;
-
-}
-
-.d {
-  flex-grow: 1;
-}
-
-.e {
+.c, .d, .e {
   flex-grow: 1;
 }
 
 .f {
-  flex-grow: 1;
-  min-width: 97%;
+  min-width: 100%;
 }
 
 /* desktop view */
