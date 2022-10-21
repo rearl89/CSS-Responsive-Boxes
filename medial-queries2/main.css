@@ -1,3 +1,52 @@
 body {
   background: papayawhip;
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 10px;
+}   
+
+.a, .b, .c, .d, .e, .f {
+  border: 1px solid black;
+  margin: 15px;
+  background-color: rgb(238,224,206);
+}
+
+.a {
+flex-grow: 1;
+min-width: 97%;
+}
+
+.b {
+flex-grow: 3;
+min-width: 97%;
+}
+
+.c {
+flex-grow: 1;
+
+}
+
+.d {
+  flex-grow: 1;
+}
+
+.e {
+  flex-grow: 1;
+}
+
+.f {
+  flex-grow: 1;
+  min-width: 97%;
+}
+
+/* desktop view */
+@media (min-width: 251px) {
+
 }
