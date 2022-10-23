@@ -29,6 +29,7 @@ div {
 }
 .b {
   grid-area: b;
+  border: none;
 }
 .c {
   grid-area: c;
@@ -52,5 +53,8 @@ div {
   
   grid-template-columns: repeat(4, auto);
   grid-template-rows: 33%;
+  }
+  .b {
+    border: 1px solid black;
   }
 }
