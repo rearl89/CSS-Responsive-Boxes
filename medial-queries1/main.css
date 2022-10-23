@@ -1,7 +1,7 @@
 body {
   background: blanchedalmond;
-  margin: 0;
   text-align: center;
+  padding: 1em;
 }
 
 /* mobile view */
@@ -10,12 +10,11 @@ body {
   height: 100vh;
   flex-flow: column nowrap;
   justify-content: space-around;
-  padding: 10px;
+  gap: 1.5em;
 }   
 
 .a, .b, .c {
   border: 1px solid black;
-  margin: 15px;
   background-color: rgb(238,224,206);
 }
 
