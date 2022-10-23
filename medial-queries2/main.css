@@ -20,6 +20,7 @@ div {
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 20% 40% 20% 20%;
 }
+
 .container > * {
  margin: 10px;
 }
@@ -54,6 +55,7 @@ div {
   grid-template-columns: repeat(4, auto);
   grid-template-rows: 33%;
   }
+  
   .b {
     border: 1px solid black;
   }
